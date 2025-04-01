@@ -1,10 +1,8 @@
-
-```mermaid
-graph TD;
+graph TD; 
     A["Allowable Deductions Under Income Tax"] --> B["Rent, Rates, Taxes, Repairs & Insurance for Buildings (Section 30)"]
-    B --> B1["For Tenants: Rent Paid"]
-    B --> B2["For Tenants: Repairs (if borne by tenant)"]
-    B --> B3["For Owners: Repairs, Insurance, Municipal Taxes"]
+    B --> B1["For Tenants: Rent Paid\nFormula: 2CPL"]
+    B1 --> B2["For Tenants: Repairs (if borne by tenant)"]
+    B1 --> B3["For Owners: Repairs, Insurance, Municipal Taxes"]
 
     A --> C["Repairs & Insurance for Plant, Machinery & Furniture (Section 31)"]
     C --> C1["Current Repairs Allowed"]
@@ -35,5 +33,5 @@ graph TD;
     A --> J["Other Allowable Expenses (Section 37)"]
     J --> J1["Business-related Expenses Not Covered in Sections 30-36"]
     J --> J2["Examples: Advertising, Legal Fees, Professional Charges"]
-    
-    A --> K["End"]
+
+    A --> K["End"].
