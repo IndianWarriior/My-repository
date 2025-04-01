@@ -1,3 +1,5 @@
+
+```mermaid
 graph TD;
     A["Allowable Deductions Under Income Tax"] --> B["Rent, Rates, Taxes, Repairs & Insurance for Buildings (Section 30)"]
     B --> B1["For Tenants: Rent Paid"]
